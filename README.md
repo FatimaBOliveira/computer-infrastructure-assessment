@@ -10,7 +10,7 @@ This README follows the the instructions from [GitHub](https://docs.github.com/e
  - directories and files created by command line prompt; 
  - a notebook, [weather.ipynb](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/weather.ipynb), explaining how to use the shell and how to complete the tasks;
  - a script, [weather.sh](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/weather.sh), that contains a list of commands that can be run when the script is executed in the command line;
- - the requirement.txt file, generated when following the instructions presented by [Microsoft Docs](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/python/managing-required-packages-with-requirements-txt.md), using the code `pip freeze > requirements.txt` in the command line. This file will make my repository readable on other computers, where the Python version installed is different from mine, specifying the packages that are needed to run my notebook;
+ - the requirements.txt file, generated when following the instructions presented by [Microsoft Docs](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/python/managing-required-packages-with-requirements-txt.md), using the code `pip freeze > requirements.txt` in the command line. This file will make my repository readable on other computers, where the Python version installed is different from mine, specifying the packages that are needed to run my notebook;
  - And finally, this repository has a Workflow, .github/workflows/, that automates the script daily.
 
 ## Purpose of this project

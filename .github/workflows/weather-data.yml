@@ -1,5 +1,8 @@
 name: Run weather.sh script, commit and push changes
 
+permissions: 
+  contents: write
+
 on:
   schedule:
     - cron: '0 10 * * *'

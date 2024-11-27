@@ -11,7 +11,8 @@ This README follows the instructions from [GitHub](https://docs.github.com/en/re
  - directories and files created by command line prompt, as demonstrated in the notebook above; 
  - a script, [weather.sh](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/weather.sh), that contains a list of commands that can be run when the script is executed in the command line;
  - the [requirements.txt](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/requirements.txt) file, shows the libraries and packages needed to run the python code used in this project;
- - And finally, this repository has a Workflow, [.github/workflows/](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/tree/main/.github/workflows), that automates the script daily.
+ - a Workflow, [.github/workflows/](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/tree/main/.github/workflows), that includes the [weather-data.yml](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/.github/workflows/weather-data.yml) file that automates the script daily.
+ - a [.gitignore](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/.gitignore) as standard.
 
 ## Purpose of this project
 
@@ -33,7 +34,7 @@ If the programs are not installed, [GitHub codespaces](https://docs.github.com/e
 
 The cloud GitHub Codespaces is the main tool to use the codes in the command line environment. These commands can be found in the notebook, [weather.ipynb](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/weather.ipynb).
 
-Regarding the [workflow](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions#workflows), .github/workflows/, [GitHub Actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions#overview) automates with high efficiency the [script](https://docs.fileformat.com/programming/sh/#what-is-a-sh-file) weather.sh through [YAML file]((https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#about-yaml-syntax-for-workflows)), weather-data.yml file. Even though this automation can be done through a physical computer, unfortunately this one needs to be on in order to be successfully completed. That's why it's easier to automate the script in a virtual computer made available by GitHub.
+Regarding the [workflow](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions#workflows), .github/workflows/, [GitHub Actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions#overview) automates with high efficiency the [script](https://docs.fileformat.com/programming/sh/#what-is-a-sh-file) weather.sh through [YAML file](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#about-yaml-syntax-for-workflows), [weather-data.yml](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/.github/workflows/weather-data.yml) file. Even though this automation can be done through a physical computer, unfortunately this one needs to be on in order to be successfully completed. That's why it's easier to automate the jobs in a virtual computer made available by GitHub.
 
 ## Dependencies
 

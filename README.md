@@ -7,7 +7,7 @@ This README follows the instructions from [GitHub](https://docs.github.com/en/re
 ## About this project
 
  This repository contains the following:
- - a notebook, [weather.ipynb](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/weather.ipynb), explaining how to use the shell and how to complete the tasks;
+ - a notebook, [weather.ipynb](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/weather.ipynb), explaining how to use the shell and how to complete the tasks and project;
  - directories and files created by command line prompt, as demonstrated in the notebook above; 
  - a script, [weather.sh](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/weather.sh), that contains a list of commands that can be run when the script is executed in the command line;
  - the [requirements.txt](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/requirements.txt) file, shows the libraries and packages needed to run the python code used in this project;

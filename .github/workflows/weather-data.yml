@@ -1,32 +1,35 @@
 name: Run weather.sh script, commit and push changes
 
-permissions: 
-  contents: write
-
 on:
   schedule:
     - cron: '0 10 * * *'
   workflow_dispatch:
+
+permissions: 
+  contents: write
 
 jobs:
   run-weather-script:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    # Step 1: check the repository.
+    - name: Check out repository
       uses: actions/checkout@v4
 
+    # Step 2: make the script executable and run it.
     - name: Run weather.sh script
       run: |
         chmod +x weather.sh
         ./weather.sh
 
+    # Step 3: Configure git, commit and push changes.
     - name: Commit and Push changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
         git add .
-        git commit -m "Run weather.sh script and commit changes"
+        git commit -m "Athenry weather"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

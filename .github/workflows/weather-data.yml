@@ -2,7 +2,7 @@ name: Run weather.sh script, commit and push changes
 
 on:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '35 10 * * *'
   workflow_dispatch:
 
 permissions: 

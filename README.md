@@ -11,7 +11,7 @@ This README follows the instructions from [GitHub](https://docs.github.com/en/re
 ## About this project
 
  This repository contains the following:
- - a notebook, [weather.ipynb](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/weather.ipynb), explaining how to use a shell, how to complete the tasks and project;
+ - a Jupyter Notebook, [weather.ipynb](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/weather.ipynb), that explains how to use a shell, how to complete the tasks and project;
  - directories and files created by command line prompt, as demonstrated in the notebook above; 
  - a script, [weather.sh](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/weather.sh), that contains commands that can be run when the script is executed in the command line;
  - the [requirements.txt](https://github.com/FatimaBOliveira/computer-infrastructure-assessment/blob/main/requirements.txt) file, shows the libraries and packages installed on my machine to run Python code;
@@ -24,7 +24,7 @@ The main objective of this work is:
 - to know that there are many programs that use a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI); 
 - to get used to the command line environment, understand how it works and how powerful it can be;
 - to perform tasks without a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface), that is usually used over CLI;
-- to use virtual machines accessible through a browser, and these provide [computing infrastructures](https://www.sciencedirect.com/topics/computer-science/computing-infrastructure) with useful tools;
+- to use virtual machines accessible through a browser, and these provide [computing infrastructures](https://www.sciencedirect.com/topics/computer-science/computing-infrastructure) with useful tools.
 
 These skills are especially valuable in the profession of a Data Analyst, because they expand the knowledge of the process within the computer and ease the manipulation of data in daily life.
 

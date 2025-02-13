@@ -1,8 +1,9 @@
 name: Run weather.sh script, commit and push changes
 
 on:
-  schedule:
-    - cron: '35 10 * * *'
+  # Remove the # if needed to schedule workflow.
+  #schedule:
+  #  - cron: '35 10 * * *'
   workflow_dispatch:
 
 permissions: 
